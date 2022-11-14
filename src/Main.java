@@ -58,7 +58,20 @@ public class Main {
         System.out.println("В школе, где " + totalNumberOfKlasses + " классов, нужно " + whitePaintBuy + " банок белой краски и " + brownPaintBuy + " банок коричневой краски");
 
         System.out.println("Задача 5");
+        int bananaWeight = 80;
+        int milkWeight = 105;
+        int icecreamWeight = 100;
+        int eggWeight = 70;
+        bananaWeight = bananaWeight * 5;
+        milkWeight = milkWeight * 2;
+        icecreamWeight = icecreamWeight * 2;
+        eggWeight = eggWeight * 4;
+        int totalWeghtGramm = bananaWeight + milkWeight + icecreamWeight + eggWeight;
+        double totalWeightKg = totalWeghtGramm * 0.001;
+        System.out.println( "Общий вес продуктов " + totalWeghtGramm + " грамм");
+        System.out.println( "Общий вес продуктов " + totalWeightKg + " килограмм");
 
+        System.out.println("Задача 6");
 
 
 
