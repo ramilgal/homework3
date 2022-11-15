@@ -22,7 +22,7 @@ public class Main {
         short e = -159;
         short f = 27897;
         byte g = 67;
-        boolean h = g >= 100;
+        boolean h = false;
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -43,9 +43,7 @@ public class Main {
 
         System.out.println("Задача 4");
         byte productivityFor1Minute = 16 / 2;
-        byte minute = 1;
-        int minuteInOneDay = minute * 60 * 24;
-        int minuteInMonth = minuteInOneDay * 30;
+        int minuteInOneDay = 60 * 24;
         int productivityFor20Minute = productivityFor1Minute * 20;
         System.out.println("За 20 минут машина произвела бутылок " + productivityFor20Minute + " штук");
         int productivityForOneDay = productivityFor1Minute * minuteInOneDay;
@@ -57,13 +55,13 @@ public class Main {
 
         System.out.println("Задача 5");
         int allBanksPaints = 120;
-        int whitePaintsForOneKlass = 2;
-        int brownPaintsForOneKlass = 4;
-        int allPaintsForOneKlass = whitePaintsForOneKlass + brownPaintsForOneKlass;
-        int totalNumberOfKlass = allBanksPaints / allPaintsForOneKlass;
-        int whitePaintBuy = totalNumberOfKlass * whitePaintsForOneKlass;
-        int brownPaintBuy = totalNumberOfKlass * brownPaintsForOneKlass;
-        System.out.println("В школе, где " + totalNumberOfKlass + " классов, нужно " + whitePaintBuy + " банок белой краски и " + brownPaintBuy + " банок коричневой краски");
+        int whitePaintsForOneClass = 2;
+        int brownPaintsForOneClass = 4;
+        int allPaintsForOneClass = whitePaintsForOneClass + brownPaintsForOneClass;
+        int totalNumberOfClass = allBanksPaints / allPaintsForOneClass;
+        int whitePaintBuy = totalNumberOfClass * whitePaintsForOneClass;
+        int brownPaintBuy = totalNumberOfClass * brownPaintsForOneClass;
+        System.out.println("В школе, где " + totalNumberOfClass + " классов, нужно " + whitePaintBuy + " банок белой краски и " + brownPaintBuy + " банок коричневой краски");
 
         System.out.println("Задача 6");
         int bananaWeight = 80;
